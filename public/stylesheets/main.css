@@ -1,0 +1,8 @@
+.jumbotron {
+    height: 100%;
+    width: auto;
+}
+
+ul li {
+    display: inline;
+}
