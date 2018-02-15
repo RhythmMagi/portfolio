@@ -1,8 +1,24 @@
 .jumbotron {
     height: 100%;
     width: auto;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#b8c6df+0,6d88b7+100;Grey+Blue+3D+%231 */
+    background: rgb(184,198,223); /* Old browsers */
+    background: -moz-linear-gradient(top, rgb(184,198,223) 0%, rgb(109,136,183) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgb(184,198,223) 0%,rgb(109,136,183) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgb(184,198,223) 0%,rgb(109,136,183) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b8c6df', endColorstr='#6d88b7',GradientType=0 ); /* IE6-9 */
 }
 
 ul li {
     display: inline;
+}
+
+.lead {
+    text-shadow: 1px 1px #000000;
+}
+
+.jumbotron-heading {
+    text-shadow: 1px 1px #000000;
+    font-family: 'Press Start 2P', cursive;
+
 }
