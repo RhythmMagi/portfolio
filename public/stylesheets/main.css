@@ -1,12 +1,28 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.card {
+    border: none;
+}
 .jumbotron {
     height: 100%;
     width: auto;
-    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#b8c6df+0,6d88b7+100;Grey+Blue+3D+%231 */
-    background: rgb(184,198,223); /* Old browsers */
-    background: -moz-linear-gradient(top, rgb(184,198,223) 0%, rgb(109,136,183) 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(top, rgb(184,198,223) 0%,rgb(109,136,183) 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to bottom, rgb(184,198,223) 0%,rgb(109,136,183) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b8c6df', endColorstr='#6d88b7',GradientType=0 ); /* IE6-9 */
+    background-image: url("https://images.pexels.com/photos/164821/pexels-photo-164821.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.jumbotron-heading {
+    text-shadow: 1px 1px #AAAAAA;
+    font-family: 'Berkshire Swash', cursive;
+}
+
+.projects-title {
+    text-shadow: 2px 2px #000000;
+    font-family: 'Berkshire Swash', cursive;
 }
 
 ul li {
@@ -14,11 +30,18 @@ ul li {
 }
 
 .lead {
-    text-shadow: 1px 1px #000000;
+    text-shadow: 1px 1px #AAAAAA;
 }
 
-.jumbotron-heading {
-    text-shadow: 1px 1px #000000;
-    font-family: 'Press Start 2P', cursive;
+.section-padding {
+    padding: 20px 0px;
+}
 
+.album {
+    height: 100%;
+    width: auto;
+    background-image: url("https://images.pexels.com/photos/247791/pexels-photo-247791.png?w=1260&h=750&auto=compress&cs=tinysrgb");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
