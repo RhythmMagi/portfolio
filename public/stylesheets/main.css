@@ -13,6 +13,7 @@ html, body {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+    margin-bottom: 0;
 }
 
 .jumbotron-heading {
@@ -22,6 +23,11 @@ html, body {
 
 .projects-title {
     text-shadow: 2px 2px #000000;
+    font-family: 'Berkshire Swash', cursive;
+}
+
+.header {
+    text-shadow: 1px 1px #AAAAAA;
     font-family: 'Berkshire Swash', cursive;
 }
 
@@ -44,4 +50,14 @@ ul li {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+}
+
+.about {
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin-bottom: 0;
+}
+
+.footer {
+    padding-top: 10px;
 }

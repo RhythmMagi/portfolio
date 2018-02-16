@@ -1,63 +1,15 @@
 <% include partials/header %>
 
 <!--Name and Jumbotron-->
-<section class="jumbotron jumbotron-fluid d-flex justify-content-center align-items-center">
-  <div class="container inner cover">
-    <div class="">
-      <h1 class="jumbotron-heading display-1">Jeffrey Schrock</h1>
-      <p class="display-4">Jr. Web Developer</p>
-    </div>
+<div class="jumbotron jumbotron-fluid d-flex justify-content-center align-items-center">
+  <div class="container inner cover text-center">
+    <h1 class="jumbotron-heading display-1">Jeffrey Schrock</h1>
+    <h3 class="header display-4">Jr. Web Developer</h3>
   </div>
-</section>
+</div>
 
 <% include about %>
 
-<!--Projects Section-->
-<div class="album py-5 bg-light section-padding">
-  <div class="container">
-    <h2 class="projects-title text-secondary text-center">Projects</h2>
-    <div class="row">
-      <div class="col-md-4">
-        <div class="card mb-4 box-shadow">
-          <img class="card-img-top" src="/images/yelpcamp.png" alt="Card image cap">
-          <div class="card-body">
-            <p class="card-text">Login and add a camp and comment! <strong>YelpCamp</strong> is a project revolving around Node.js, Authentication, Authorization, RESTful Routing, and Databases</p>
-            <div class="d-flex justify-content-between align-items-center">
-              <div class="btn-group">
-                <button type="button" class="btn btn-sm btn-outline-secondary" href="https://chaibosampledemo.herokuapp.com/">View</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="card mb-4 box-shadow">
-          <img class="card-img-top" src="/images/chaibodemo.png" alt="Card image cap">
-          <div class="card-body">
-            <p class="card-text"><strong>Chaibo</strong> is a small cafe that I frequent while working. Focus primarily on the Front end with dynamic menus and bootstraps mobile capability.</p>
-            <div class="d-flex justify-content-between align-items-center">
-              <div class="btn-group">
-                <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="card mb-4 box-shadow">
-          <img class="card-img-top" src="/images/code.jpeg" alt="Card image cap">
-          <div class="card-body">
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            <div class="d-flex justify-content-between align-items-center">
-              <div class="btn-group">
-                <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
+<% include projects %>
 
 <% include partials/footer %>
