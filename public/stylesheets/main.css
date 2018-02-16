@@ -33,6 +33,11 @@ html, body {
 
 ul li {
     display: inline;
+    opacity: 1;
+}
+
+.btn.disabled {
+    opacity: 1;
 }
 
 .lead {
@@ -61,3 +66,4 @@ ul li {
 .footer {
     padding-top: 10px;
 }
+
